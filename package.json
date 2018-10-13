@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/morgiovanelli/curso_node/issues"
   },
-  "homepage": "https://github.com/morgiovanelli/curso_node#readme"
+  "homepage": "https://github.com/morgiovanelli/curso_node#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
