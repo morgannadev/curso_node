@@ -1,0 +1,19 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "Site de notícias",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morgiovanelli/curso_node.git"
+  },
+  "author": "Morganna Giovanelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morgiovanelli/curso_node/issues"
+  },
+  "homepage": "https://github.com/morgiovanelli/curso_node#readme"
+}
