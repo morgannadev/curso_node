@@ -1,4 +1,5 @@
-var http = require('http');
+var http = require('http'); // sem express - pegando direto do http
+
 var server = http.createServer(
     function(req, res) {
 
@@ -15,4 +16,6 @@ var server = http.createServer(
         }        
 });
 
-server.listen(3000);
+server.listen(3000, function() {
+    console.log('Servidor rodando sem Express');
+});
