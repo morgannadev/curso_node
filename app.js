@@ -1,9 +1,4 @@
-var express = require('express'); // recuperando a biblioteca do express
-var msg = require('./mod_teste');
-
-var  app = express(); // executando a função que o express retorna
-
-app.set('view engine', 'ejs'); // definindo o motor de geração de views - ejs
+var app = require('./config/server'); // recuperando as configs do servidor (em módulo)
 
 app.get('/', function(req, res) {
     res.render("home/index");
@@ -19,5 +14,4 @@ app.get('/noticias', function(req, res) {
 
 app.listen(3000, function() {
     console.log('Servidor rodando com Express');
-    console.log(msg());
 });
