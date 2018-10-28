@@ -10,3 +10,6 @@ Utilizando:
 
 Banco de Dados:
 - MySQL Community.
+
+Outros:
+- Consign: para autoload de scripts.
