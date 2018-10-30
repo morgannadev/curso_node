@@ -1,6 +1,6 @@
 # Curso de Node.js
 
-Repositório para curso em andamento e estudo de node.js.
+Repositório para curso (udemy) e estudo de node.js.
 
 Utilizando:
 - Express: um framework node.js para aplicações web;
